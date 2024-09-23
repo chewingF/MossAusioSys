@@ -181,9 +181,9 @@ public class MAS_Manager : MonoBehaviour
     }
 
     /// <summary>
-    /// Unpause background music
+    /// Resume background music
     /// </summary>
-    public static void UnPauseBackgroundMusic()
+    public static void ResumeBackgroundMusic()
     {
         MAS_Manager.Instance._audioSource.UnPause();
     }
